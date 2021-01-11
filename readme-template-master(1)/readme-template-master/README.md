@@ -1,18 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NYT CLONE PROJECT
 
-> One paragraph statement about the project.
+> Clone of the New York Times website page.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+ This project features Positioning and floating elements.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5 & CSS3
+
 
 ## Live Demo
 
