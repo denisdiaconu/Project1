@@ -6,7 +6,7 @@
 
 ![screenshot](./app_screenshot.png)
 
- This project features Positioning and floating elements.
+Clone of the New York Times website page. This project features Positioning and floating elements.
 
 ## Built With
 
