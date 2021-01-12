@@ -1,7 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+    overflow-x:auto;
+}
+
+
+@font-face {
+    font-family: "LibreFranklin";
+    src: url(./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: LibreFranklin, sans-serif;
+    margin-left: 2%;
+}
 
 #topNavBar {
-    border: 1px solid red;
-    padding: 0px;
-    margin-top: 0px;
-    width: auto;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    list-style-type: none;
+    width: 100%;
+    z-index: 1;
 }
+
+body {
+    padding: 0px;
+    margin-top: 10%;
+}
+#topNavBar > img {
+    height: 2rem;
+    width: 12rem;
+}
+#topNavBar > a > button {
+    background-color: #567b95;
+    color: #f5f5f5;
+}
+#topNavBar > a {
+    text-align: center;
+}
+
+h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.iconNav {
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+li > a > i {
+    color: black;
+    background-color: #eee;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.captionText {
+    font-size: 0.9rem;
+
+}
+.mutedCaptionText {
+    
+}
+
+
+
+.newletterImgs {
+    height: 20rem;
+    width: 20rem;
+}
+
+
