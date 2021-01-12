@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
 
 html {
@@ -21,10 +20,6 @@ html {
     src: url(./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
 }
 
-body {
-    font-family: LibreFranklin, sans-serif;
-    margin-left: 2%;
-}
 
 p {
     margin-top: 1rem;
@@ -51,10 +46,60 @@ p {
 body {
     padding: 0px;
     margin-top: 10%;
+    font-family: LibreFranklin, sans-serif;
+    margin-left: 2%;
 }
 
 .articleBody {
     text-align: left;
+}
+
+.unlockSection {
+    border-top: #ccc  solid 1px;
+    border-bottom: #ccc  solid 1px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.unlockSection > div > ul > li > a {
+    font-weight: 700;
+}
+
+aside {
+    display: flex;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    float: right;
+    font-size: 0.8rem;
+}
+aside > div {
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #ccc;
+}
+aside > div > span {
+    white-space: pre-line;
+    word-wrap: normal;
+}
+aside > a > img {
+    height: 6rem;
+    width: 6rem;
+}
+aside > a {
+    color: black;
+}
+
+a {
+    color: #567b95;
+    text-decoration: none;
 }
 #topNavBar > img {
     height: 2rem;
@@ -66,8 +111,18 @@ body {
     background-color: #567b95;
     color: #f5f5f5;
 }
+<<<<<<< Updated upstream
 #warper_header {
     display: flex;
+=======
+.commentsButton {
+    background-color: #567b95;
+    color: #ffff;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    border-radius: 3%;
+    font-size: 0.8rem;
+    font-weight: bolder;
+>>>>>>> Stashed changes
 }
 
 #topNavBar > a {
@@ -131,6 +186,11 @@ li > a > i {
     color: #666;
 }
 
+.mutedLinks {
+    color: #666;
+    text-decoration: underline;
+}
+
 .authorDetails {
     font-size: 0.8rem;
     margin-top: 2rem;
@@ -140,10 +200,25 @@ li > a > i {
 }
 
 
-
+#newsletter_container{
+    display: flex;
+    align-content: center;
+}
 .newletterImgs {
-    height: 20rem;
-    width: 20rem;
+    height: 5rem;
+    width: 5rem;
+}
+.newsletter_items {
+    border: 3px solid red;
+    display: flexbox;
+    flex-basis: 33%;
+    text-align: left;
+    align-content: center;
+    justify-content: start;
+}
+
+.newsletter_text {
+    word-wrap: break-word;
 }
 
 #text_header:hover {
