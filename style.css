@@ -249,8 +249,13 @@ li > a > i {
     justify-content: start;
 }
 
+
+.text-container {
+    display: flex;
+}
 .newsletter_text {
     word-wrap: break-word;
+    align-items: center;
 }
 
 
