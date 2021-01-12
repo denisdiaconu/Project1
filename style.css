@@ -48,7 +48,8 @@ body {
     padding: 0px;
     margin-top: 10%;
     font-family: LibreFranklin, sans-serif;
-    margin-left: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .articleBody {
@@ -231,10 +232,16 @@ li > a > i {
     border-bottom: #aaa;
 }
 
+#newsletterHeading {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
 
 #newsletter_container{
     display: flex;
     align-content: center;
+    justify-content: space-between;
+    width: 68%;
 }
 .newletterImgs {
     height: 5rem;
@@ -243,16 +250,23 @@ li > a > i {
 .newsletter_items {
     border: 3px solid red;
     display: flexbox;
-    flex-basis: 33%;
+    flex-basis: 31%;
     text-align: left;
     align-content: center;
     justify-content: start;
+    padding: 1rem;
+}
+.newsletter_items > a {
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 
 .text-container {
     display: flex;
+    font-size: 0.9rem;
 }
+
 .newsletter_text {
     word-wrap: break-word;
     align-items: center;
