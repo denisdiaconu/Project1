@@ -6,13 +6,6 @@
 html {
     overflow-x:auto;
 }
-.menu_button {
-    background-color: black;
-    width: 15px;
-    height: 2px;
-    margin: 2px
-    
-}
 
 
 @font-face {
@@ -29,15 +22,13 @@ p {
 #topNavBar {
     position: fixed;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
     padding: 0;
     margin: 0;
-    background-color: white;
+    background-color: #f5f5f5;
     overflow: hidden;
-    border: #e2e2e2 solid 1px;
     list-style-type: none;
     width: 100%;
     z-index: 1;
@@ -105,16 +96,10 @@ a {
     height: 2rem;
     width: 12rem;
 }
-#topNavBar > div > a > button {
-    border-radius: 6%;
-    border: #567b95;
+#topNavBar > a > button {
     background-color: #567b95;
     color: #f5f5f5;
 }
-<<<<<<< Updated upstream
-#warper_header {
-    display: flex;
-=======
 .commentsButton {
     background-color: #567b95;
     color: #ffff;
@@ -122,37 +107,12 @@ a {
     border-radius: 3%;
     font-size: 0.8rem;
     font-weight: bolder;
->>>>>>> Stashed changes
 }
 
 #topNavBar > a {
-    font-weight: bolder;
     text-align: center;
 }
-#button_layout {
-    margin-right: 20px;
-    margin-left: 40px;
-    
-}
-#button1 {
-    padding: 9px;
-    font-size: x-small;
-    font-weight: bolder;
-}
-#button2 {
-    font-weight: bold;
-    padding: 9px;
-    margin-right: 25px;
-    font-size: x-small;
-}
-#search_button {
-    color: black;
-    margin-right: 20px;
-}
-#text_header {
-    color: black;
-    font-weight: bolder;
-}
+
 h1 {
     font-size: 33px;
     text-align: center;
@@ -221,15 +181,4 @@ li > a > i {
     word-wrap: break-word;
 }
 
-#text_header:hover {
-    text-decoration: underline;
-}
-#search_button:hover {
-    background-color: rgb(221, 234, 235);
-    padding: 4px;
 
-}
-#button_layout:hover {
-    background-color: rgb(221, 234, 235);
-    padding: 4px;
-}
