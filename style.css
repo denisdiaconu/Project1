@@ -1,10 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 html {
     overflow-x:auto;
+}
+.menu_button {
+    background-color: black;
+    width: 15px;
+    height: 2px;
+    margin: 2px
+    
 }
 
 
@@ -13,6 +21,10 @@ html {
     src: url(./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
 }
 
+body {
+    font-family: LibreFranklin, sans-serif;
+    margin-left: 2%;
+}
 
 p {
     margin-top: 1rem;
@@ -22,13 +34,15 @@ p {
 #topNavBar {
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     top: 0;
     left: 0;
     padding: 0;
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: white;
     overflow: hidden;
+    border: #e2e2e2 solid 1px;
     list-style-type: none;
     width: 100%;
     z-index: 1;
@@ -37,82 +51,53 @@ p {
 body {
     padding: 0px;
     margin-top: 10%;
-    font-family: LibreFranklin, sans-serif;
-    margin-left: 2%;
 }
 
 .articleBody {
     text-align: left;
 }
-
-.unlockSection {
-    border-top: #ccc  solid 1px;
-    border-bottom: #ccc  solid 1px;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    margin-left: 35rem;
-    margin-right: 35rem;
-    text-align: center;
-    font-size: 0.9rem;
-}
-.unlockSection > div > ul > li > a {
-    font-weight: 700;
-}
-
-aside {
-    display: flex;
-    padding-right: 5rem;
-    padding-left: 5rem;
-    flex-direction: column;
-    flex-basis: 25%;
-    flex-shrink: 1;
-    flex-grow: 1;
-    float: right;
-    font-size: 0.8rem;
-}
-aside > div {
-    font-weight: bold;
-    margin-bottom: 0.7rem;
-    padding-bottom: 0.7rem;
-    border-bottom: 1px solid #ccc;
-}
-aside > div > span {
-    white-space: pre-line;
-    word-wrap: normal;
-}
-aside > a > img {
-    height: 6rem;
-    width: 6rem;
-}
-aside > a {
-    color: black;
-}
-
-a {
-    color: #567b95;
-    text-decoration: none;
-}
 #topNavBar > img {
     height: 2rem;
     width: 12rem;
 }
-#topNavBar > a > button {
+#topNavBar > div > a > button {
+    border-radius: 6%;
+    border: #567b95;
     background-color: #567b95;
     color: #f5f5f5;
 }
-.commentsButton {
-    background-color: #567b95;
-    color: #ffff;
-    padding: 0.5rem 6rem 0.5rem 6rem;
-    border-radius: 3%;
-    font-size: 0.8rem;
-    font-weight: bolder;
+#warper_header {
+    display: flex;
 }
 
 #topNavBar > a {
+    font-weight: bolder;
     text-align: center;
 }
-
+#button_layout {
+    margin-right: 20px;
+    margin-left: 40px;
+    
+}
+#button1 {
+    padding: 9px;
+    font-size: x-small;
+    font-weight: bolder;
+}
+#button2 {
+    font-weight: bold;
+    padding: 9px;
+    margin-right: 25px;
+    font-size: x-small;
+}
+#search_button {
+    color: black;
+    margin-right: 20px;
+}
+#text_header {
+    color: black;
+    font-weight: bolder;
+}
 h1 {
     font-size: 33px;
     text-align: center;
@@ -146,11 +131,6 @@ li > a > i {
     color: #666;
 }
 
-.mutedLinks {
-    color: #666;
-    text-decoration: underline;
-}
-
 .authorDetails {
     font-size: 0.8rem;
     margin-top: 2rem;
@@ -160,25 +140,22 @@ li > a > i {
 }
 
 
-#newsletter_container{
-    display: flex;
-    align-content: center;
-}
+
 .newletterImgs {
-    height: 5rem;
-    width: 5rem;
-}
-.newsletter_items {
-    border: 3px solid red;
-    display: flexbox;
-    flex-basis: 33%;
-    text-align: left;
-    align-content: center;
-    justify-content: start;
+    height: 20rem;
+    width: 20rem;
 }
 
-.newsletter_text {
-    word-wrap: break-word;
+#text_header:hover {
+    text-decoration: underline;
 }
+#search_button:hover {
+    background-color: rgb(221, 234, 235);
+    padding: 4px;
 
+}
+#button_layout:hover {
+    background-color: rgb(221, 234, 235);
+    padding: 4px;
+}
 
