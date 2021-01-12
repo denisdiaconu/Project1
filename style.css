@@ -52,6 +52,12 @@ body {
     margin-right: 8%;
 }
 
+.sectionBorder {
+    border-bottom: 1px solid #000;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
 .articleBody {
     text-align: left;
 }
@@ -232,8 +238,15 @@ li > a > i {
     border-bottom: #aaa;
 }
 
+.suggestedContainer {
+    align-content: center;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+/* <<< NEWSLETTER >>> */
 #newsletterHeading {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 0.8rem;
 }
 
@@ -241,7 +254,9 @@ li > a > i {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    width: 68%;
+    width: 100%;
+    margin-bottom: 2rem;
+    order: 0;
 }
 .newletterImgs {
     height: 5rem;
@@ -250,7 +265,7 @@ li > a > i {
 .newsletter_items {
     border: 3px solid red;
     display: flexbox;
-    flex-basis: 31%;
+    flex-basis: 28%;
     text-align: left;
     align-content: center;
     justify-content: start;
@@ -272,4 +287,32 @@ li > a > i {
     align-items: center;
 }
 
+
+#advHeading {
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+}
+#adv_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+    order: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#adv_items {
+    border: 3px solid red;
+    display: flexbox;
+    flex-basis: 5%;
+    text-align: left;
+    align-content: center;
+    justify-content: start;
+    padding: 1rem;
+}
+#adv_items > img {
+    height: 100px;
+    width: 100px;
+}
 
