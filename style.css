@@ -19,6 +19,11 @@ body {
     margin-left: 2%;
 }
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 #topNavBar {
     position: fixed;
     display: flex;
@@ -37,6 +42,10 @@ body {
 body {
     padding: 0px;
     margin-top: 10%;
+}
+
+.articleBody {
+    text-align: left;
 }
 #topNavBar > img {
     height: 2rem;
@@ -74,10 +83,21 @@ li > a > i {
 
 .captionText {
     font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 .mutedCaptionText {
-    
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.authorDetails {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-bottom: #aaa;
 }
 
 
