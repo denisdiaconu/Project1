@@ -28,6 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+
 ### Setup
 
 ### Install
@@ -42,17 +43,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Marcus Allen**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Denis Andrei Diaconu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
+- Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
+- LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
 
 ## 🤝 Contributing
 
