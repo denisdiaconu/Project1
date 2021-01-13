@@ -444,10 +444,11 @@
 
     <!-- all the links of the footer-->
     <footer>
-        <img src="/images/The_New_York_Times_Logo.svg.png" alt="NYT logo">
+        <div id="footer_line"></div>
+        <img id="logo_footer" src="/images/The_New_York_Times_Logo.svg.png" alt="NYT logo">
         <div id="news_container">
             <nav id="news">
-                <h5>NEWS</h5>
+                <h5 class="footer_title">NEWS</h5>
                 <ul id="news_list">
                     <li><a href="#">Home Page</a></li>
                     <li><a href="#">World</a></li>
@@ -466,8 +467,8 @@
                 </ul>
             </nav>
             <nav id="opinion">
+                <h5 class="footer_title">OPINION</h5>
                 <ul id="opinion_list">
-                    <H5>OPINION</H5>
                     <li><a href="#">Today's Opinion</a></li>
                     <li><a href="#">Op-Ed Columnists</a></li>
                     <li><a href="#">Editorials</a></li>
@@ -478,9 +479,9 @@
                 </ul>
             </nav>
             <nav id="arts">
+                <h5 class="footer_title">ARTS</h5>
                 <ul id="arts_list">
-                    <h5>ARTS</h5>
-                    <li><a href="#"></a>Today's Arts</li>
+                    <li><a href="#">Today's Arts</a></li>
                     <li><a href="#">Art & Design</a></li>
                     <li><a href="#">Books</a></li>
                     <li><a href="#">Dance</a></li>
@@ -493,8 +494,8 @@
                 </ul>
             </nav>
             <nav id="living">
+                <h5 class="footer_title">LIVING</h5>
                 <ul id="living_list">
-                    <h5>LIVING</h5>
                     <li><a href="#">At Home</a></li>
                     <li><a href="#">Automobiles</a></li>
                     <li><a href="#">Games</a></li>
@@ -513,8 +514,8 @@
                 </ul>
             </nav>
             <nav id="more">
+                <h5 class="footer_title">MORE</h5>
                 <ul id="more_list">
-                    <h5>MORE</h5>
                     <li><a href="#">Reader Center</a></li>
                     <li><a href="#">Wirecutter</a></li>
                     <li><a href="#">Live Events</a></li>
@@ -530,28 +531,50 @@
                     <li><a href="#">Manage My Acount</a></li>
                 </ul>
             </nav>
-            <nav id="subscribe">
-                <ul id="subscribe_list">
-                    <h5>SUBSCRIBE</h5>
-                    <li><a href="#">Home Delivery</a></li>
-                    <li><a href="#">Digital Subscriptions</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Cooking</a></li>
-                    <li><a href="#">Email Newsletters</a></li>
-                    <li><a href="#">Corpotate Subscriptions</a></li>
-                    <li><a href="#">Education Rate</a></li>
-                </ul>
-            </nav>
-            <nav id="under_sub">
-                <ul id="under_sub_list">
-                    <li><a href="#">Mobile Applications</a></li>
-                    <li><a href="#">Replica Edition</a></li>
-                    <li><a href="#">International</a></li>
-                    <li><a href="#">Canada</a></li>
-                    <li><a href="#">Espanol</a></li>
-                    <li><a href="#">中文网</a></li>
-                </ul>
-            </nav>
+            <div id="more_line"></div>
+            <div>
+                <nav id="subscribe">
+                    <h5 class="footer_title">SUBSCRIBE</h5>
+                    <ul id="subscribe_list">
+                        <li><a class="subscribe_bold" href="#"><h3>Home Delivery</h3></a></li>
+                        <li><a class="subscribe_bold" href="#"><h3>Digital Subscriptions</h3></a></li>
+                        <li><a class="subscribe_bold" href="#"><h3>Games</h3></a></li>
+                        <li><a class="subscribe_bold" href="#"><h3>Cooking</h3></a></li>
+                        <li><a href="#">Email Newsletters</a></li>
+                        <li><a href="#">Corpotate Subscriptions</a></li>
+                        <li><a href="#">Education Rate</a></li>
+                    </ul>
+                </nav>
+                <div id="subscribe_line"></div>
+                <nav id="under_sub">
+                    <ul id="under_sub_list">
+                        <li><a href="#">Mobile Applications</a></li>
+                        <li><a href="#">Replica Edition</a></li>
+                        <li><a href="#">International</a></li>
+                        <li><a href="#">Canada</a></li>
+                        <li><a href="#">Espanol</a></li>
+                        <li><a href="#">中文网</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="copyrights_line"></div>
+        <div>
+            <ul id="copyright_cont">
+                <li><a href="#">© 2021 The New York Times Company</a></li>
+                <li><a href="#">NYTCo</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Work with us</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">T Brand Studio</a></li>
+                <li><a href="#">Your Ad Choices</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Terms of Sale</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Subscriptions</a></li>
+            </ul>
         </div>
     </footer>
 </body>
