@@ -15,7 +15,11 @@ Clone of the New York Times website page. This project features Positioning and 
 
 ## Live Demo
 
+<<<<<<< HEAD
 [https://livedemo.com](https://livedemo.com)
+=======
+https://denisdiaconu.github.io/Project1/
+>>>>>>> df936b604c09562f8674389f5969c77b703dd8bc
 
 
 ## Getting Started
@@ -27,6 +31,7 @@ Clone of the New York Times website page. This project features Positioning and 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 
 ### Setup
 
@@ -42,17 +47,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Marcus (Mark) Allen**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@CacheMeGifYouCan](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Denis Andrei Diaconu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@DenisDiaconu](https://github.com/denisdiaconu)
+- Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
+- LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
 
 ## 🤝 Contributing
 
