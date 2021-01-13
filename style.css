@@ -9,8 +9,9 @@ html {
 
 
 @font-face {
-    font-family: "LibreFranklin";
-    src: url(./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
+    font-family: "Cheltenham";
+    src: url(./fonts/cheltenham-cond-normal-500.ttf);
+    font-weight: 900;
 }
 
 
@@ -33,6 +34,7 @@ p {
     border: #e2e2e2 solid 1px;
     list-style-type: none;
     width: 100%;
+    height: 42px;
     z-index: 1;
 }
 
@@ -47,9 +49,10 @@ p {
 body {
     padding: 0px;
     margin-top: 10%;
-    font-family: LibreFranklin, sans-serif;
+    font-family: Open sans, sans-serif;
     margin-left: 8%;
     margin-right: 8%;
+    font-style: normal;
 }
 
 .sectionBorder {
@@ -57,10 +60,109 @@ body {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+.sectionBorder2 {
+    border-bottom: 1px solid #eee;
+    margin: 1rem 20rem 1rem 23rem;
+}
 
 .articleBody {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border: solid red 3px;
+    width: 100%;
+}
+.articleItems {
+    display: flexbox;
+    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.imageContainerScientist {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageContainerItems {
+    display: flex;
+    position: inherit;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.captionText {
+   margin-right: 20rem;
+    margin-left: 8rem;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.captionText2 {
+   margin-right: 2rem;
+    margin-left: 0rem;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.mutedCaptionText {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    display: flexbox;
+}
+h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    width: 100%;
+    height: 20%;
+    font-style: italic;
+    font-style: bold;
+    font-family: Cheltenham, sans-serif;
+    margin: 2rem 4rem 0rem 4rem;
     text-align: left;
 }
+
+.iconNav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin-right: 16rem;
+    margin-bottom: 2rem;
+}
+
+.commentsButton {
+    display: inline-flex;
+    background-color: #567b95;
+    color: #ffff;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+    border-radius: 3%;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+li > a > i {
+    color: black;
+    background-color: rgb(238,238,238);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 7px;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+}
+
 
 .unlockSection {
     border-top: #ccc  solid 1px;
@@ -83,17 +185,18 @@ body {
 
 /* <<ASIDE>> */
 
-aside {
-    display: flex;
-    padding-right: 5rem;
-    padding-left: 5rem;
-    flex-direction: column;
-    flex-basis: 25%;
-    flex-shrink: 1;
-    flex-grow: 1;
-    float: right;
-    font-size: 0.8rem;
+#editorsPicksContainer {
+    display: flexbox;
+    align-content: flex-end;
+    width: 20%;
+    right: 2%;
+    position: absolute;
+    margin-bottom: 2rem;
+    order: 0;
+    border: 3px red solid;
 }
+
+
 aside > div {
     font-weight: bold;
     margin-bottom: 0.7rem;
@@ -145,15 +248,15 @@ a {
     
 }
 #button1 {
-    padding: 9px;
-    font-size: x-small;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    font-size: 10px;
     font-weight: bolder;
 }
 #button2 {
     font-weight: bold;
-    padding: 9px;
+    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
     margin-right: 25px;
-    font-size: x-small;
+    font-size: 10px;
 }
 #search_button {
     color: black;
@@ -178,52 +281,6 @@ a {
 }
 /* << NAVBAR >> */
 
-
-
-
-
-.commentsButton {
-    background-color: #567b95;
-    color: #ffff;
-    padding: 0.5rem 6rem 0.5rem 6rem;
-    border-radius: 3%;
-    font-size: 0.8rem;
-    font-weight: bolder;
-}
-
-
-h1 {
-    font-size: 33px;
-    text-align: center;
-}
-
-.iconNav {
-    text-decoration: none;
-}
-
-li {
-    text-decoration: none;
-    list-style: none;
-    
-}
-li > a > i {
-    color: black;
-    background-color: #eee;
-    border-radius: 50%;
-    font-size: 18px;
-    padding: 7px;
-}
-
-.captionText {
-    font-size: 0.9rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-.mutedCaptionText {
-    font-size: 0.7rem;
-    color: #666;
-}
 
 .mutedLinks {
     color: #666;

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="Icon" href="./images/apple-touch-icon.png">
     <title>NYT Clone Website</title>
 </head>
@@ -37,42 +39,50 @@
     </div>
 </nav>
 <body>
-    <section class="title_Container">
-        <div>
-            <h1><i>Space Ripples Reveal Big Bang's Smoking Gun<i></h1>
-            <div class="border"></div>
+    <!-- Heading -->
+    <section class="articleBody">
+        <div class="articleItems">
+            <h1 class="heading">Space Ripples Reveal Big Bang's Smoking Gun</h1>
         </div>
-            <!-- Icon  Navbar -->
-            <ul class="iconNav">
-                <li>
-                    <a href=""><i class="fab fa-facebook-square" aria-label="facebook link"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fab fa-twitter-square" aria-label="twitter link"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-envelope" aria-label="email link"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-share" aria-label="share link"></i> </a>
-                </li>
-                <li>
-                    <a href=""><i class="far fa-bookmark" aria-label="bookmark link"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="far fa-comment-alt" aria-label="comments section link"></i></a>
-                </li>
-            </ul>
-        <!-- Image Container -->
-        <div class="imageContainerScientist">
-            <img src="./images/18cosmos-superJumbo.jpg.webp" alt="scientist image" height="529" width="940">
-        </div>
-        <p class="captionText">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.<span class="mutedCaptionText"> Rick Friedman for The New York Times</span></p>
     </section>
+    <div class="sectionBorder2"></div>
+    
+    <!-- Icon  Navbar -->
+    <div class="articleItems">
+    <ul class="iconNav articleItems">
+        <li>
+            <a href=""><i class="fab fa-facebook-square" aria-label="facebook link"></i></a>
+        </li>
+        <li>
+            <a href=""><i class="fab fa-twitter-square" aria-label="twitter link"></i></a>
+        </li>
+        <li>
+            <a href=""><i class="fas fa-envelope" aria-label="email link"></i></a>
+        </li>
+        <li>
+            <a href=""><i class="fas fa-share" aria-label="share link"></i> </a>
+        </li>
+        <li>
+            <a href=""><i class="far fa-bookmark" aria-label="bookmark link"></i></a>
+        </li>
+        <li>
+            <a href=""><i class="far fa-comment-alt" aria-label="comments section link"></i></a>
+        </li>
+    </ul>
+    </div>
+
+        
+        <!-- Image Container -->
+    <div class="imageContainerScientist">
+        <img class="imgContainerItems" src="./images/18cosmos-superJumbo.jpg.webp" alt="scientist image" height="529" width="940">
+    </div>
+    <p class="captionText">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago. <span class="mutedCaptionText">&nbsp; Rick Friedman for The New York Times</span></p>
+
 
     <!-- Article Body -->
 
     <section class="articleBody">
+        <div class="articleItems">
         <div class="authorDetails">By Dennis Overbye</div>
         <time class="mutedCaptionText">March 17, 2014</time>
         <p>
@@ -82,6 +92,7 @@
             “SPECTACULAR REALIZATION,” Dr. Guth wrote across the top of the page and drew a double box around it.
             On Monday, Dr. Guth’s starship came in. Radio astronomers reported that they had seen the beginning of the Big Bang, and that his hypothesis, known undramatically as inflation, looked right.
         </p>
+        </div>
     </section>
 
     <!-- Unlock Section -->
@@ -97,7 +108,7 @@
     </section>
 
     <!-- Editors Picks -->
-    <aside>
+    <aside id="editorsPicksContainer">
         <div>Editors Picks</div>
         <a href="https://www.nytimes.com/2021/01/07/style/taylor-swift-evermore-.html?action=click&algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=243267218&impression_id=cd225e80-54a9-11eb-89fa-4331a9586de8&index=0&pgtype=Article&region=ccolumn&req_id=786067288&surface=home-featured&variant=3_bandit-all-surfaces_desk_filter_dedup">
             <img src="./images/07SONGMUSE-taylor-swift-square640.webp" alt="taylor_swift_image" height="auto" width="auto">
@@ -108,6 +119,7 @@
     <!-- Article Body #2 -->
 
     <section class="articleBody">
+        <div class="articleItems">
         <p>
             Reaching back across 13.8 billion years to the first sliver of cosmic time with telescopes at the South Pole, a team of astronomers led by John M. Kovac of the Harvard-Smithsonian Center for Astrophysics detected ripples in the fabric of space-time — so-called gravitational waves — the signature of a universe being wrenched violently apart when it was roughly a trillionth of a trillionth of a trillionth of a second old. They are the long-sought smoking-gun evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
             Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered whether it could ever be proved.
@@ -130,11 +142,13 @@
         <p>
             Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.
         </p>
+    </div>
     </section>
 
     <!-- Article Body #3 -->
 
     <section class="articleBody">
+        <div class="articleItems">
         <p>
             Dr. Kovac said the chance that the results were a fluke was only one in 10 million.
         </p>
@@ -145,6 +159,7 @@
         <p>
             The results are the closely guarded distillation of three years’ worth of observations and analysis. Eschewing email for fear of a leak, Dr. Kovac personally delivered drafts of his work to a select few, meeting with Dr. Guth, who is now a professor at Massachusetts Institute of Technology (as is his son, Larry, who was sleeping that night in 1979), in his office last week.
         </p>
+    </div>
     </section>
     
     <!-- Newsletter Sign Up Button -->
@@ -156,12 +171,14 @@
 
     <!-- Article Body #4 -->
     <section class="articleBody">
+        <div class="articleItems">
         <p>
             “It was a very special moment, and one we took very seriously as scientists,” said Dr. Kovac, who chose his words as carefully as he tended his radio telescopes.
         </p>
         <p>
             Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle of Champagne to tell him the news.
         </p>
+    </div>
     </section>
 
     <!-- Video Container -->
@@ -176,6 +193,7 @@
 
     <!-- Article Body #5 -->
     <section class="articleBody">
+        <div class="articleItems">
         <p>
             Confused, Dr. Linde called out to his wife, asking if she had ordered anything.
         </p>
@@ -217,13 +235,15 @@
 
         <!-- Article image -->
         <div class="articleImageContainer">
-            <img src="./images/18cosmos-2-superJumbo.jpg.webp" alt="satellite image" height="471" width="925">
+            <img src="./images/18cosmos-2-superJumbo.jpg.webp" alt="satellite image" height="401" width="600">
         </div>
-        <p class="captionText">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<span class="mutedCaptionText"> Steffen Richter/Associated Press</span></p>
+        <p class="captionText2">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<span class="mutedCaptionText"> Steffen Richter/Associated Press</span></p>
+        </div>
     </section>
 
     <!-- Article Body #6 -->
     <section class="articleBody">
+        <div class="articleItems">
         <p>
             In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.
         </p>
@@ -289,7 +309,6 @@
 
         <!-- Icon Navbar -->
         <span>
-            <nav>
                 <ul class="iconNav">
                     <li>
                         <a href=""><i class="fab fa-facebook-square" aria-label="facebook link"></i></a>
@@ -310,8 +329,8 @@
                         <a href=""><i class="far fa-comment-alt" aria-label="comments section link"></i></a>
                     </li>
                 </ul>
-            </nav>
         </span>
+        </div>
     </section>
 
     
