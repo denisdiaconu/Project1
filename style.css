@@ -277,6 +277,7 @@ a {
 #button_layout {
     margin-right: 20px;
     margin-left: 40px;
+    padding: 10px;
     
 }
 #button1 {
@@ -290,9 +291,11 @@ a {
     margin-right: 25px;
     font-size: 10px;
 }
+
 #search_button {
     color: black;
     margin-right: 20px;
+    padding: 10px;
 }
 #text_header {
     color: black;
@@ -304,12 +307,17 @@ a {
 }
 #search_button:hover {
     background-color: rgb(221, 234, 235);
-    padding: 4px;
-
 }
 #button_layout:hover {
     background-color: rgb(221, 234, 235);
-    padding: 4px;
+}
+#button1:hover {
+    background-color: #47718f;
+    cursor: pointer;
+}
+#button2:hover {
+    background-color: #47718f;
+    cursor: pointer;
 }
 /* << NAVBAR >> */
 
@@ -516,3 +524,4 @@ footer {
 #copyright_cont > li > a:hover {
     text-decoration: underline;
 }
+
