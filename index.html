@@ -99,7 +99,7 @@
     <section class="unlockSection">
         <div>
             <ul>
-                <div>Unlock more free articles.</div>
+                <li>Unlock more free articles.</li>
                 <li>
                     <a href="https://myaccount.nytimes.com/auth/register?application=Free_Experience&asset=InlineMessage&campaignId=7QF7X&client_id=freex&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FEXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%26campaignID%3D7QF7X&response_type=cookie">Create an account or log in</a>
                 </li>
@@ -159,15 +159,16 @@
         <p>
             The results are the closely guarded distillation of three years’ worth of observations and analysis. Eschewing email for fear of a leak, Dr. Kovac personally delivered drafts of his work to a select few, meeting with Dr. Guth, who is now a professor at Massachusetts Institute of Technology (as is his son, Larry, who was sleeping that night in 1979), in his office last week.
         </p>
+        <!-- Newsletter Sign Up Button -->
+        <section class="newsletterSignUp">
+            <div id="signupFlexCont">
+                <i><strong>COOKING: </strong> Daily inspiration, delicious recipes and other updates from Sam Sifton and NYT Cooking. </i>
+                <span><button class="signUpButton" type="button" aria-label="Sign Up Button">Sign Up</button></span>
+            </div>
+        </section>
     </div>
     </section>
     
-    <!-- Newsletter Sign Up Button -->
-    <section>
-        <div>
-            <strong>COOKING:</strong><i>Daily inspiration, delicious recipes and other updates from Sam Sifton and NYT Cooking. </i><span><button class="signUpButton" type="button" role="button" aria-label="Sign Up Button">Sign Up</button></span>
-        </div>
-    </section>
 
     <!-- Article Body #4 -->
     <section class="articleBody">
@@ -178,18 +179,18 @@
         <p>
             Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, knocked on his door with a bottle of Champagne to tell him the news.
         </p>
+        <!-- Video Container -->
+        <section class="videoContainer">
+            <div>
+                <iframe aria-label="stanford Video" width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="captionText2">
+                Stanford Professor Andrei Linde celebrates physics breakthrough <span class="mutedCaptionText">Video by Stanford University</span>
+            </div>
+        </section>
     </div>
     </section>
 
-    <!-- Video Container -->
-    <section class="videoContainer">
-        <div>
-            <iframe aria-label="stanford Video" width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div>
-            Stanford Professor Andrei Linde celebrates physics breakthrough <span class="textMuted">Video by StanfordUniversity</span>
-        </div>
-    </section>
 
     <!-- Article Body #5 -->
     <section class="articleBody">
@@ -304,34 +305,26 @@
                 <a href="" class="mutedLinks"><u>Subscribe</u></a>
             </span>
         </p>
-        
-        <button class="commentsButton" type="button" aria-label="comments button">READ 615 COMMENTS</button> 
-
         <!-- Icon Navbar -->
-        <span>
-                <ul class="iconNav">
-                    <li>
-                        <a href=""><i class="fab fa-facebook-square" aria-label="facebook link"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-twitter-square" aria-label="twitter link"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fas fa-envelope" aria-label="email link"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fas fa-share" aria-label="share link"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="far fa-bookmark" aria-label="bookmark link"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="far fa-comment-alt" aria-label="comments section link"></i></a>
-                    </li>
-                </ul>
-        </span>
+        <div class="btnContainer">
+        <button class="commentsButton" type="button" aria-label="comments button">READ 615 COMMENTS</button> 
+            <ul class="iconNav2">
+                <li>
+                    <a href=""><i class="fab fa-facebook-square" aria-label="facebook link"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-twitter-square" aria-label="twitter link"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fas fa-envelope" aria-label="email link"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fas fa-share" aria-label="share link"></i></a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </div>
+</section>
 
     
     <!-- Newsletter/Ads/Popular Container -->
@@ -341,34 +334,34 @@
     <h3 id="newsletterHeading">Suggested newsletters for you</h3>
     <div id="newsletter_container">   
         <div class="newsletter_items">
-            <img src="/images/Cooking.png" class="newletterImgs" alt="Cooking">
+            <img src="./images/Cooking.png" class="newletterImgs" alt="Cooking">
             <p class="mutedCaptionText">FOUR TIMES A WEEK</p>
             <h4>Cooking</h4>
             <div class="text-container">
                 <p class="newsletter_text">Daily inspiration, delicious recipes and other updates from Sam Sifton and NYT Cooking.
                 </p>
             </div>
-            <a href="#">See the latest</a>
+            <a href="#" class="newsletterLinks">See the latest</a>
         </div>
         <div class="newsletter_items">
-            <img src="/images/TheMorning-Icon.png" class="newletterImgs" alt="TheMorning">
+            <img src="./images/TheMorning-Icon.png" class="newletterImgs" alt="TheMorning">
             <p class="mutedCaptionText">DAILY</p>
             <h4>The Morning</h4>
             <div class="text-container">
                 <p class="newsletter_text">Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you.
                 </p>
             </div>
-            <a href="#">See the latest</a>
+            <a href="#" class="newsletterLinks">See the latest</a>
         </div>
         <div class="newsletter_items">
-            <img src="/images/Breaking.png" class="newletterImgs" alt="Breaking">
+            <img src="./images/Breaking.png" class="newletterImgs" alt="Breaking">
             <p class="mutedCaptionText">AS NEEDED</p>
             <h4>Breaking News</h4>
             <div class="text-container">
                 <p class="newsletter_text">Alerts when important news breaks around the world. Lorem ipsum dolor.
                 </p>
             </div>
-            <a href="#">See the latest</a>
+            <a href="#" class="newsletterLinks">See the latest</a>
         </div>
     </div>
 
@@ -376,53 +369,55 @@
 
     
     <!-- advertisement part of the page-->
+    <h2>More in Space and Astronomy</h2>
     <div id="adv_container">
-        <div id="adv_items">
-        <h2>More in Space and Astronomy</h2>
-        <img src="/images/2021SPACECALENDAR-eclipse-threeByTwoSmallAt2X.jpg.webp" alt="Eclipse">
-        <p>Ferdinandh Cabrera/Agence France-Presse — Getty Images</p>
-        </div>
-        
-        <div id="adv_items">
-        <h3>Sync your calendar with the solar system</h3>
-        <p>Jan. 5</p>
-        <img src="/images/04SCI-SPACEPREVIEW1-threeByTwoSmallAt2X.webp" alt="Mars from space">
-        <p>NASA/JPL-Caltech</p>
+        <div id="adv_items1">
+        <img class="advImgs" src="./images/2021SPACECALENDAR-eclipse-threeByTwoSmallAt2X.jpg.webp" alt="Eclipse">
+        <p class="mutedCaptionText">Ferdinandh Cabrera/Agence France-Presse — Getty Images</p>
+        <h4 class="adv_text">Sync your calendar with the solar system</h4>
+        <p class="mutedCaptionText">Jan. 5</p>
         </div>
 
-        <div id="adv_items">
-        <h3>Missions to Mars, the Moon and Beyond Await Earth in 2021</h3>
-        <p>Jan. 4</p>
-        <img src="/images/22SCI-NEPTUNE-promo-threeByTwoSmallAt2X.webp" alt="Neptune image from space">
-        <p>NASA, ESA, STScI, M.H. Wong, L.A. Sromovsky and P.M. Fry</p>
+        <div id="adv_items1">
+        <img class="advImgs" src="./images/04SCI-SPACEPREVIEW1-threeByTwoSmallAt2X.webp" alt="Eclipse">
+        <p class="mutedCaptionText">Ferdinandh Cabrera/Agence France-Presse — Getty Images</p>
+        <h4 class="adv_text">Missions to Mars, the Moon and Beyond Await Earth in 2021</h4>
+        <p class="mutedCaptionText">Jan. 5</p>
         </div>
 
-        <div id="adv_items">
-        <h3>Neptune’s Weird Dark Spot Just Got Weirder</h3> 
-        <p>Dec. 22, 2020</p>
-        <img src="/images/22SCI-NEPTUNE-promo-threeByTwoSmallAt2X.webp" alt="Neptune image from space"> 
-        <p>NASA, ESA, STScI, M.H. Wong, L.A. Sromovsky and P.M. Fry</p>
-        </div>
-
-        <div id="adv_items">
-        <h3>Neptune’s Weird Dark Spot Just Got Weirder</h3>
-        <p>Dec. 22, 2020</p>
-        <img src="/images/merlin_181335102_abeb13f3-72d2-4293-8036-3b8f92a65f68-threeByTwoSmallAt2X.webp" alt="Moon harvest"> 
-        <p>China Global Television Network</p>
-        </div>
-
-        <div id="adv_items">
-        <h3>China Brings Moon Rocks to Earth, and a New Era of Competition to Space</h3>
-        <p>Dec. 17, 2020</p>
-        <img src="/images/09ASTRONAUTS1-threeByTwoSmallAt2X.webp" alt="Astronaut ship">
-        <p>Steve Nesius/Reuters</p>
-        </div>
-
-        <div id="adv_items">
-        <h3>‘Heroes of the Future’: NASA Picks 18 Astronauts for Moon Mission Training</h3>
-        <p>Dec. 9, 2020</p>
+        <div id="adv_items1">
+        <img class="advImgs" src="./images/22SCI-NEPTUNE-promo-threeByTwoSmallAt2X.webp" alt="Neptune image from space">
+        <p class="mutedCaptionText">NASA, ESA, STScI, M.H. Wong, L.A. Sromovsky and P.M. Fry</p>
+        <h4 class="adv_text">Neptune’s Weird Dark Spot Just Got Weirder</h4> 
+        <p class="mutedCaptionText">Dec. 22, 2020</p>
         </div>
     </div>
+
+
+    <div id="adv_container2">
+
+        <div id="adv_items2">
+            <img class="advImgs" src="./images/im-27028.jpeg" alt="China News Network"> 
+            <p class="mutedCaptionText">Steve Nesius/Reuters</p>
+            <h4 class="adv_text">Foreign minister for the chinese embassy speaks at the global news network event. Autem, magnam!</h4>
+            <p class="mutedCaptionText">Dec. 17, 2020</p>
+            </div>
+    
+        <div id="adv_items2">
+        <img class="advImgs" src="./images/merlin_181335102_abeb13f3-72d2-4293-8036-3b8f92a65f68-threeByTwoSmallAt2X.webp" alt="Moon harvest"> 
+        <p class="mutedCaptionText">Steve Nesius/Reuters</p>
+        <h4 class="adv_text">China Brings Moon Rocks to Earth, and a New Era of Competition to Space</h4>
+        <p class="mutedCaptionText">Dec. 17, 2020</p>
+        </div>
+    
+        <div id="adv_items2">
+        <img class="advImgs" src="./images/09ASTRONAUTS1-threeByTwoSmallAt2X.webp" alt="Astronaut ship">
+        <p class="mutedCaptionText">Steve Nesius/Reuters</p>
+        <h4 class="adv_text">‘Heroes of the Future’: NASA Picks 18 Astronauts for Moon Mission Training</h4>
+        <p class="mutedCaptionText">Dec. 9, 2020</p>
+        </div>
+    </div>
+    
     
     <!-- most Popular part of the page-->
     <h3 id="popularHeading">Most Popular</h3>
