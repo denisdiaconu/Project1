@@ -4,7 +4,7 @@
 
 > Clone of the New York Times website page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 Clone of the New York Times website page. This project features Positioning and floating elements.
 
