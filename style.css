@@ -1,10 +1,6 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 
 html {
-    overflow-x:auto;
+    overflow-x:hidden;
 }
 
 
@@ -53,15 +49,15 @@ button:hover {
 #advPlaceholder {
     margin-top: 0px;
     margin-bottom: 2rem;
+    width: auto;
 }
 
 body {
     padding: 0px;
     margin-top: 4%;
     font-family: Open sans, sans-serif;
-    margin-left: 8%;
-    margin-right: 8%;
     font-style: normal;
+    overflow-x:hidden;
 }
 
 .sectionBorder {
@@ -78,15 +74,15 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: left;
-    border: solid red 3px;
-    width: 100%;
+    align-content: center;
+    width: 99%;
 }
 .articleItems {
     display: flexbox;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    flex-basis: 50%;
+    flex-basis: 42%;
     justify-content: center;
 }
 
@@ -105,8 +101,8 @@ body {
 }
 
 .captionText {
-   margin-right: 20rem;
-    margin-left: 8rem;
+   margin-right: 20%;
+    margin-left: 15%;
     font-size: 0.9rem;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -146,6 +142,7 @@ h1 {
     justify-items: left;
     margin-right: 16rem;
     margin-bottom: 2rem;
+    margin-left: 30%;
 }
 
 .commentsButton {
@@ -234,9 +231,8 @@ li > a > i {
     right: 2%;
     position: absolute;
     top: 130rem;
-    right: 6.75rem;
+    right: 5%;
     order: 0;
-    border: 3px red solid;
 }
 
 
@@ -262,6 +258,7 @@ li > a > i {
     width: 7rem;
     float: left;
     color: black;
+    padding-bottom: 20%;
     
 }
 
@@ -392,9 +389,11 @@ a {
 
 
 .diagramImgs {
-    height: 550px;
-    width: 950px;
+    height: 80%;
+    width: 80%;
     z-index: 1;
+    margin-left: 10%;
+    align-self: center;
 }
 
 .diagram_text1 {
@@ -413,7 +412,7 @@ a {
     word-wrap: break-word;
     width: 19.5%;
     top: 8rem;
-    left: 23rem;
+    left: 30%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -422,9 +421,9 @@ a {
 .diagram_text3 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
+    width: 17%;
     top: 8rem;
-    left: 38rem;
+    left: 50%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -433,9 +432,9 @@ a {
 .diagram_text4 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
+    width: 15%;
     top: 8rem;
-    left: 53rem;
+    left: 73%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -445,9 +444,9 @@ a {
 .diagram_text5 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
-    top: 24rem;
-    left: 7.5rem;
+    width: 15%;
+    top: 26rem;
+    left: 9%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -456,9 +455,9 @@ a {
 .diagram_text6 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
-    top: 24rem;
-    left: 23rem;
+    width: 15%;
+    top: 26rem;
+    left: 30%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -467,9 +466,9 @@ a {
 .diagram_text7 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
-    top: 24rem;
-    left: 38rem;
+    width: 15%;
+    top: 26rem;
+    left: 50%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -478,9 +477,9 @@ a {
 .diagram_text8 {
     position: absolute;
     word-wrap: break-word;
-    width: 19.5%;
-    top: 24rem;
-    left: 53rem;
+    width: 15%;
+    top: 26rem;
+    left: 73%;
     align-items: center;
     font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
     z-index: 5;
@@ -509,13 +508,13 @@ a {
     width: 5rem;
 }
 .newsletter_items {
-    border: 3px solid red;
     display: flexbox;
-    flex-basis: 28%;
+    flex-basis: 20%;
     text-align: left;
     align-content: center;
     justify-content: start;
     padding: 1rem;
+    border: 1px solid #eee;
 }
 
 
@@ -563,7 +562,6 @@ a {
 }
 
 #adv_items1 {
-    border: 3px solid red;
     display: flexbox;
     flex-basis: 28%;
     order: 1;
@@ -582,7 +580,6 @@ a {
 }
 
 #adv_items2 {
-    border: 3px solid red;
     order: 2;
     display: flexbox;
     flex-basis: 28%;
@@ -675,10 +672,8 @@ footer {
 
 /* << Most Popular part >> */
 #most_popular_warp {
-    position: absolute;
     margin-left: 60%;
     width: 17%;
-    height: auto;
 }
 #most_popular_list {
     margin: 30px 0px 30px 0px;
@@ -688,16 +683,23 @@ footer {
     border-top: 1px solid black;
 }
 
-#most_popular_warp > ul > li > a {
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+
+  
+
+.popular-links {
+    display: flex;
+    font-size: 0.9rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.popular-links > li > a {
+    padding: 5px 0px 5px 0px;
+    font-family: georgia, "times new roman", times, serif;
     color: rgb(53, 50, 50);
-    font-weight: bolder;
-    font-size: 17px;
 }
-#most_popular_warp > ul > li {
-    height: auto;
-    border-top: 1px solid #e2e2e2;
-    margin-top: 20px;
-    padding-top: 20px;
+.popular-links > li > a:hover {
+    text-decoration: underline;
 }
+
 
