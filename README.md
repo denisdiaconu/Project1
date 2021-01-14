@@ -14,7 +14,7 @@ Clone of the New York Times website page. This project features Positioning and 
 
 ## Live Demo
 
-<<<<<<< HEAD
+<<<<<<< HEAD >>>>>>>
 [NYT PROJECT](https://denisdiaconu.github.io/Project1/)
 =======
 
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 
-### Setup
+### Setupf
 
 ### Install
 
