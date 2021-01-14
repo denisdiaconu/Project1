@@ -2,7 +2,7 @@
 
 # NYT CLONE PROJECT
 
-![screenshot](./Screenshot 2021-01-13 at 15.19.37.png)
+![screenshot](https://github.com/denisdiaconu/Project1/blob/denisdiaconu-patch-1/Screenshot%202021-01-13%20at%2015.19.37.png)
 
 Clone of the New York Times website page. This project features Positioning and floating elements.
 
