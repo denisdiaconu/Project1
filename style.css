@@ -133,8 +133,9 @@ article {
 
 .captionText {
   margin-right: 20%;
-  margin-left: 15%;
+  margin-left: 22%;
   margin-top: 10px;
+  width: 50%;
 }
 
 .captionText2 {
@@ -425,7 +426,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 19.5%;
-  top: 8rem;
+  top: 10rem;
   left: 7.5rem;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -437,7 +438,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 19.5%;
-  top: 8rem;
+  top: 10rem;
   left: 30%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -449,7 +450,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 17%;
-  top: 8rem;
+  top: 10rem;
   left: 50%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -461,7 +462,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 15%;
-  top: 8rem;
+  top: 10rem;
   left: 73%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -473,7 +474,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 15%;
-  top: 26rem;
+  top: 30rem;
   left: 9%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -485,7 +486,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 15%;
-  top: 26rem;
+  top: 30rem;
   left: 30%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -497,7 +498,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 15%;
-  top: 26rem;
+  top: 30rem;
   left: 50%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
@@ -509,7 +510,7 @@ li > a > i {
   position: absolute;
   word-wrap: break-word;
   width: 15%;
-  top: 26rem;
+  top: 30rem;
   left: 73%;
   align-items: center;
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
