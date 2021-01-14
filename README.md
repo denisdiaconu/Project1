@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# NYT CLONE PROJECT
+# New York Times Clone Project
 
 ![screenshot](https://github.com/denisdiaconu/Project1/blob/denisdiaconu-patch-1/Screenshot%202021-01-13%20at%2015.19.37.png)
 
@@ -8,16 +8,16 @@ Clone of the New York Times website page. This project features Positioning and 
 
 ## Built With
 
-- HTML5 & CSS3
+- HTML5
+- CSS
 
 
 ## Live Demo
 
 <<<<<<< HEAD
-[https://livedemo.com](https://livedemo.com)
+[https://livedemo.com](https://denisdiaconu.github.io/Project1/)
 =======
-https://denisdiaconu.github.io/Project1/
->>>>>>> df936b604c09562f8674389f5969c77b703dd8bc
+
 
 
 ## Getting Started
