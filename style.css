@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 html {
     overflow-x:hidden;
@@ -272,7 +270,7 @@ a {
 
 /* << NAVBAR >> */
 
-#topNavBar > img {
+#topNavBar > a > img {
     height: 2rem;
     width: 12rem;
 }
@@ -705,4 +703,3 @@ footer {
 }
 
 
->>>>>>> df936b604c09562f8674389f5969c77b703dd8bc
