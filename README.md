@@ -14,7 +14,7 @@ Clone of the New York Times website page. This project features Positioning and 
 
 ## Live Demo
 
-<<<<<<< HEAD >>>>>>>
+<<<<<<< HEAD TO
 [NYT PROJECT](https://denisdiaconu.github.io/Project1/)
 =======
 
@@ -29,17 +29,10 @@ Clone of the New York Times website page. This project features Positioning and 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Knowlage about HTML and CSS.
+HTML Semantic elements.
+CSS flex property.
 
-
-### Setupf
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -49,7 +42,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@CacheMeGifYouCan](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [Denis Diaconu](https://linkedin.com/linkedinhandle)
 
 👤 **Denis Andrei Diaconu**
 
