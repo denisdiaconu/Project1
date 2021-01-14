@@ -1,47 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# NYT CLONE PROJECT
+# New York Times Clone Project
 
-> Clone of the New York Times website page.
-
-![screenshot](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/denisdiaconu/Project1/test_project/screenshot2.png)
 
 Clone of the New York Times website page. This project features Positioning and floating elements.
 
 ## Built With
 
-- HTML5 & CSS3
+- HTML5
+- CSS
 
 
 ## Live Demo
 
-<<<<<<< HEAD
-[https://livedemo.com](https://livedemo.com)
+HEAD TO
+[NYT PROJECT](https://denisdiaconu.github.io/Project1/)
 =======
-https://denisdiaconu.github.io/Project1/
->>>>>>> df936b604c09562f8674389f5969c77b703dd8bc
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Knowlage about HTML and CSS.
+HTML Semantic elements.
+CSS flex property.
 
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -51,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@CacheMeGifYouCan](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [Denis Diaconu](https://linkedin.com/linkedinhandle)
 
 👤 **Denis Andrei Diaconu**
 
