@@ -20,7 +20,6 @@ HEAD TO
 
 
 
-## Getting Started
 
 
 ### Prerequisites
