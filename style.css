@@ -582,7 +582,7 @@ li > a > i {
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
-#adv_items1 {
+.adv_items1 {
   flex-basis: 28%;
   order: 1;
   text-align: left;
@@ -597,7 +597,7 @@ li > a > i {
   order: 0;
 }
 
-#adv_items2 {
+.adv_items2 {
   order: 2;
   flex-basis: 28%;
   text-align: left;
