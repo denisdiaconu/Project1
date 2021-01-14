@@ -2,8 +2,6 @@
 
 # NYT CLONE PROJECT
 
-> Clone of the New York Times website page.
-
 ![screenshot](./screenshot.png)
 
 Clone of the New York Times website page. This project features Positioning and floating elements.
