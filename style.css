@@ -333,7 +333,7 @@ li > a > i {
 
 /* <<ASIDE>> */
 
-#editorsPicksContainer {
+#PicksContainer {
   align-content: flex-end;
   width: 15%;
   position: absolute;
@@ -341,16 +341,17 @@ li > a > i {
   right: 5%;
   order: 0;
 }
-#editorsPicksContainer2 {
-    align-content: flex-end;
-    width: 15%;
-    top: 141rem;
-    position: absolute;
-    right: 5%;
-    order: 0;
-  }
 
-#editorsPicksContainer > div {
+#editors_PicksContainer2 {
+  align-content: flex-end;
+  width: 15%;
+  top: 141rem;
+  position: absolute;
+  right: 5%;
+  order: 0;
+}
+
+#PicksContainer > div {
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 14px;
@@ -359,29 +360,31 @@ li > a > i {
   padding-bottom: 7px;
   margin-bottom: 5px;
 }
-#editorsPicksContainer2 > div {
-    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0;
-    padding-bottom: 7px;
-    margin-bottom: 5px;
-  }
 
-#editorsPicksContainer > a > img {
+#editors_PicksContainer2 > div {
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+}
+
+#PicksContainer > a > img {
   height: 5rem;
   width: 5rem;
   float: left;
   padding-right: 10px;
 }
-#editorsPicksContainer2 > a > img {
-    height: 5rem;
-    width: 5rem;
-    float: left;
-    padding-right: 10px;
-  }
 
-#editorsPicksContainer > a > span {
+#editors_PicksContainer2 > a > img {
+  height: 5rem;
+  width: 5rem;
+  float: left;
+  padding-right: 10px;
+}
+
+#PicksContainer > a > span {
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   width: 7rem;
@@ -389,14 +392,15 @@ li > a > i {
   color: black;
   padding-bottom: 20%;
 }
-#editorsPicksContainer2 > a > span {
-    font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    width: 7rem;
-    float: left;
-    color: black;
-    padding-bottom: 20%;
-  }
+
+#editors_PicksContainer2 > a > span {
+  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  width: 7rem;
+  float: left;
+  color: black;
+  padding-bottom: 20%;
+}
 
 .mutedLinks {
   color: #666;
