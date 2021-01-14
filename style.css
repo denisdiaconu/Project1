@@ -270,7 +270,7 @@ a {
 
 /* << NAVBAR >> */
 
-#topNavBar > img {
+#topNavBar > a > img {
     height: 2rem;
     width: 12rem;
 }
