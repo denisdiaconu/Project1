@@ -15,7 +15,7 @@ Clone of the New York Times website page. This project features Positioning and 
 ## Live Demo
 
 <<<<<<< HEAD
-[https://livedemo.com](https://denisdiaconu.github.io/Project1/)
+[https://denisdiaconu.github.io/Project1/](https://denisdiaconu.github.io/Project1/)
 =======
 
 
