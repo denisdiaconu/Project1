@@ -2,7 +2,7 @@
 
 # NYT CLONE PROJECT
 
-![screenshot](/Screenshot 2021-01-13 at 15.19.37.png)
+![screenshot](./Screenshot 2021-01-13 at 15.19.37.png)
 
 Clone of the New York Times website page. This project features Positioning and floating elements.
 
