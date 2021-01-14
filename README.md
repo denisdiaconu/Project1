@@ -23,7 +23,7 @@ HEAD TO
 
 
 ### Prerequisites
-Knowlage about HTML and CSS.
+Knowledge about HTML and CSS.
 HTML Semantic elements.
 CSS flex property.
 
