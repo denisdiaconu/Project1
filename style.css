@@ -97,7 +97,9 @@ main {
   margin: 1rem 20rem 1rem 23rem;
 }
 
-article {
+article,
+iframe,
+.articleImageContainer {
   justify-content: space-around;
   text-align: left;
   align-content: center;
@@ -142,6 +144,7 @@ article {
   margin-right: 2rem;
   margin-left: 0;
   margin-top: 5px;
+  width: 87%;
 }
 
 .mutedCaptionText {
@@ -425,131 +428,15 @@ li > a > i {
 
 .diagramContainer {
   position: relative;
-  text-align: left;
-  justify-content: space-evenly;
   width: 100%;
-  margin: 2rem 0 2rem 0;
-}
-
-.diagramHeading {
-  font-size: 23px;
-  text-align: left;
-  margin-left: 7.5rem;
-  margin-bottom: 5px;
-}
-
-.diagramDescriptionHeading {
-  color: #777;
-  margin-bottom: 35px;
-  margin-left: 7.5rem;
-  text-align: left;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
-  width: 76%;
+  justify-content: center;
 }
 
 .diagramImgs {
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
   z-index: 1;
-  margin-left: 10%;
-  align-self: center;
-}
-
-.diagram_text1 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 19.5%;
-  top: 10rem;
-  left: 7.5rem;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text2 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 19.5%;
-  top: 10rem;
-  left: 30%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text3 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 17%;
-  top: 10rem;
-  left: 50%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text4 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 15%;
-  top: 10rem;
-  left: 73%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text5 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 15%;
-  top: 30rem;
-  left: 9%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text6 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 15%;
-  top: 30rem;
-  left: 30%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text7 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 15%;
-  top: 30rem;
-  left: 50%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
-}
-
-.diagram_text8 {
-  position: absolute;
-  word-wrap: break-word;
-  width: 15%;
-  top: 30rem;
-  left: 73%;
-  align-items: center;
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  z-index: 5;
-  font-size: 13px;
+  margin-left: 7%;
 }
 
 /* <<< NEWSLETTER >>> */
@@ -759,4 +646,14 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  flex-basis: 100%;
+}
+
+.suggestedContainer,
+footer {
+  width: 85%;
+}
+
+iframe {
+  height: 25rem;
 }
