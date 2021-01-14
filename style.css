@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-  font-family: Cheltenham, sans-serif;
+  font-family: "Cheltenham", sans-serif;
 }
 
 p {
@@ -25,7 +25,6 @@ li,
 }
 
 #topNavBar,
-.articleBody,
 .imageContainerScientist,
 .imageContainerItems,
 .iconNav,
@@ -103,6 +102,7 @@ article {
   text-align: left;
   align-content: center;
   width: 99%;
+  display: flex;
 }
 
 .articleItems {
@@ -277,6 +277,12 @@ li > a > i {
 #button_layout {
   margin-right: 20px;
   margin-left: 40px;
+}
+
+#button1,
+#button2 {
+  background-color: #567b95;
+  color: #f5f5f5;
 }
 
 #button1 {
@@ -607,6 +613,10 @@ li > a > i {
 
 /* << footer  >> */
 
+#news_list {
+  padding-left: 0;
+}
+
 #footer_line {
   background-color: white;
   width: auto;
@@ -638,6 +648,9 @@ li > a > i {
 
 footer {
   color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.5rem 0 2.5rem;
 }
 
 .footer_title {
