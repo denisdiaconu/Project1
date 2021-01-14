@@ -405,8 +405,42 @@
                 </ul>
             </div>
         </div>
-        </article>
+    </article>
 </section>
+
+<!-- Subscribe to Newsletter Form -->
+
+<h5 id="signupHeader">
+    Our newsletter features the latest developents and breaking news. Subscribe now to recieve 50% off your daily subscription
+</h5>
+
+
+<button id="newsletterButton" class="commentsButton" onclick="newsFunction()">CLICK TO JOIN OUR NEWSLETTER</button>
+
+<section id="formContainer">
+        <form action="/google.com" method="get">
+            <label for="username"></label>
+            <input type="text" name="username" id="username" placeholder="Please enter your username" required="required" maxlength="20">
+            <br>
+            <label for="emailAddress"></label>
+            <input type="email" name="emailAddress" id="emailAddress" placeholder="Email address here" required="required" maxlength="20">
+            <br>
+            <label for="commentField"></label>
+            <textarea name="commentField" id="commentField" cols="40" rows="10" placeholder="Type your comment here.." required="required" maxlength="250"></textarea>
+            <p>What is your overall opinion about this article?</p>
+            <label for="positiveBox">Positive</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="negativeBox">Negative</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="neutralBox">Neutral</label>
+            <input type="radio" name="radio" id="radio">
+            <br>
+            <label for="checkbox">I want to subscribe to the newsletter</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <br>
+            <button class="commentsButton" type="submit">SEND</button>
+        </form>
+    </section>
 
 <!-- Newsletter/Ads/Popular Container -->
 <section class="suggestedContainer">
@@ -651,6 +685,17 @@
             </ul>
         </div>
     </footer>
+
+    <script>
+        function newsFunction() {
+  var x = document.getElementById("formContainer");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
 </main>
 
 </html>
