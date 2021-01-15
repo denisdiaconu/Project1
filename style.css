@@ -216,11 +216,13 @@ li > a > i {
 }
 
 .unlockSection {
+  width: 20%;
   border-top: black  solid 1px;
   border-bottom: black  solid 1px;
   padding-bottom: 2rem;
   padding-top: 2rem;
   margin: 5rem 40rem 5rem 40rem;
+  align-content: center;
   text-align: center;
   font-size: 0.9rem;
 }
