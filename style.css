@@ -8,7 +8,8 @@ html {
   font-weight: 900;
 }
 
-h1 {
+h1,
+#diagramHeading > div {
   font-family: "Cheltenham", sans-serif;
 }
 
@@ -418,17 +419,43 @@ li > a > i {
 
 /* DIAGRAM CONTAINER */
 
-.diagramContainer {
-  position: relative;
+#diagramHeading {
+  margin: 2rem 20rem 2rem 20rem;
   width: 100%;
-  justify-content: center;
+  flex-direction: row;
+}
+
+#diagramHeading > div {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.diagramContainer {
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 2rem;
+  order: 0;
+  margin-top: 20px;
+}
+
+.diagramItems {
+  flex-basis: 25%;
+  order: 1;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  word-wrap: break-word;
+  padding: 1rem;
+}
+
+.diagramItems > p {
+  font-size: 14px;
 }
 
 .diagramImgs {
-  height: 90%;
-  width: 90%;
-  z-index: 1;
-  margin-left: 7%;
+  margin-bottom: 7%;
+  height: 8rem;
+  width: 12rem;
 }
 
 /* <<< NEWSLETTER >>> */
