@@ -219,7 +219,7 @@ li > a > i {
   border-bottom: black  solid 1px;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  margin: 5rem 32rem 5rem 32rem;
+  margin: 5rem 40rem 5rem 40rem;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -228,6 +228,8 @@ li > a > i {
   margin: 5rem 0 5rem 0;
   font-size: smaller;
   width: 70%;
+  display: flex;
+  grid-column: auto;
 }
 
 #signupFlexCont > i > strong {
@@ -354,6 +356,15 @@ li > a > i {
   order: 0;
 }
 
+#PicksContainer3 {
+  align-content: flex-end;
+  width: 15%;
+  top: 150rem;
+  position: absolute;
+  right: 5%;
+  order: 0;
+}
+
 #PicksContainer > div {
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -361,48 +372,29 @@ li > a > i {
   letter-spacing: 0;
   border-bottom: 1px solid #ccc;
   padding-bottom: 7px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
-#editors_PicksContainer2 > div {
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 0;
-  padding-bottom: 7px;
-  margin-bottom: 5px;
-}
-
-#PicksContainer > a > img {
+#editors_PicksContainer2 > a > img,
+#PicksContainer > a > img,
+#PicksContainer3 > a > img {
   height: 5rem;
   width: 5rem;
   float: left;
   padding-right: 10px;
 }
 
-#editors_PicksContainer2 > a > img {
-  height: 5rem;
-  width: 5rem;
-  float: left;
-  padding-right: 10px;
-}
-
-#PicksContainer > a > span {
+#PicksContainer > a > span,
+#editors_PicksContainer2 > a > span,
+#PicksContainer3 > a > span {
   font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   width: 7rem;
   float: left;
   color: black;
   padding-bottom: 20%;
-}
-
-#editors_PicksContainer2 > a > span {
-  font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
-  width: 7rem;
-  float: left;
-  color: black;
-  padding-bottom: 20%;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .mutedLinks {
