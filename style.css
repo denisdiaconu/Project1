@@ -215,6 +215,10 @@ li > a > i {
   text-decoration: underline;
 }
 
+#sectionUnlock {
+  width: auto;
+}
+
 .unlockSection {
   width: 20%;
   border-top: black  solid 1px;
